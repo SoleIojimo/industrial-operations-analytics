@@ -4,19 +4,19 @@
 
 Todo empieza con una pregunta simple: ¿dónde se está yendo el dinero y por qué?
 
-Este dashboard en Power BI traduce la operación en información clara, conectando gasto, tiempos de detención y desvíos para facilitar el análisis y la toma de decisiones.
+Este dashboard en Power BI transforma datos operativos en información clara, conectando gasto, tiempos de detención y desvíos para facilitar el análisis y la toma de decisiones.
 
 ---
 
 ## Enfoque del análisis
 
-El tablero está diseñado desde una perspectiva de negocio, permitiendo:
+El tablero está diseñado desde una perspectiva de negocio, enfocándose en entender cómo se comporta el gasto operativo y qué lo explica.
 
-- Identificar gasto dentro y fuera de control
-- Analizar desvíos entre tiempo real y planificado
-- Detectar patrones por tipo de falla, evento y responsable
-- Priorizar focos críticos de mejora operativa
-
+Permite:
+- Analizar el gasto en el tiempo
+- Entender la distribución del gasto por tipo de evento
+- Contrastar resultados reales vs planificados
+- Explorar la información desde distintas dimensiones (falla, responsable, equipo)
 ---
 
 ## Métricas clave
@@ -30,6 +30,18 @@ El tablero está diseñado desde una perspectiva de negocio, permitiendo:
 - Eventos penalizados
 
 ---
+
+## Decisiones que habilita este dashboard
+
+A partir del análisis es posible:
+
+- Detectar qué tipos de falla concentran mayor impacto económico.
+- Identificar equipos con mayor costo o cantidad de detenciones.
+- Analizar qué responsables están vinculados a mayores tiempos de detención.
+- Evaluar desvíos entre lo planificado y lo ejecutado para ajustar la planificación
+- Priorizar acciones sobre los focos críticos que generan mayor impacto en el gasto.
+
+En este sentido, el dashboard funciona como una herramienta de apoyo para la toma de decisiones operativas y la optimización del desempeño ya que el valor va mas allá de visualizar el gasto, entendiendo qué lo explica y dónde se debe actuar. 
 
 ## Tecnologías utilizadas
 
@@ -46,7 +58,7 @@ El dashboard fue diseñado bajo principios de claridad y foco analítico:
 - Jerarquía visual clara (título → contexto → datos)
 - Uso de color para interpretación inmediata (verde / rojo)
 - Subtítulos dinámicos para contexto en tiempo real
-- Tooltips enriquecidos para análisis exploratorio
+- Tooltips como capa adicional de análisis
 - Navegación simple y consistente entre secciones
 
 
@@ -75,6 +87,14 @@ El dashboard fue diseñado bajo principios de claridad y foco analítico:
 2. Utilizar filtros para explorar distintas dimensiones (planta, tipo de falla, responsable)
 3. Analizar desvíos y su impacto en el gasto operativo
 4. Profundizar mediante tooltips y visualizaciones complementarias
+
+---
+
+## Documentación
+
+Este proyecto cuenta con documentación detallada sobre el contexto, métricas y decisiones de modelado.
+
+ [Acceder a la documentación completa](https://docs.google.com/document/d/1cO42rjCHviZ9wOlt4-Qi4n3OWGg1wX5vk63ti39FYs4/edit?usp=sharing)
 
 ---
 
